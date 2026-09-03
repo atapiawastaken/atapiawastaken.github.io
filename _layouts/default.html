@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
+  <meta name="description" content="+15 years helping startups with marketing. Currently CEO of restack.io. Master's degree in research and experimental psychology, focus on Behaviorism. I write about Startups, Psychology &amp; AI.">
+  <style>
+    body { font-family: Georgia, "Times New Roman", serif; color: #1a1a1a;
+           background: #fff; max-width: 42em; margin: 2em auto;
+           padding: 0 1.25em; line-height: 1.65; }
+    a { color: #0a3d6e; }
+    header { border-bottom: 2px solid #1a1a1a; margin-bottom: 2em; }
+    header img { width: 96px; height: 96px; border: 1px solid #999;
+                 padding: 2px; background: #fff; display: block; }
+    header h1 { font-size: 1.6em; margin: 0.5em 0 0.2em; }
+    header h1 a { text-decoration: none; color: inherit; }
+    .bio { color: #444; font-size: 0.95em; margin-top: 0.3em; }
+    h2 { font-size: 1.15em; }
+    ul.posts { list-style: none; padding: 0; }
+    ul.posts li { margin: 0.4em 0; }
+    ul.posts .date { color: #777; font-size: 0.85em;
+                     font-family: "Courier New", monospace; margin-right: 0.75em; }
+    article h1 { font-size: 1.5em; margin-bottom: 0.1em; }
+    .meta { color: #777; font-size: 0.85em; margin-top: 0; }
+    footer { border-top: 1px solid #ccc; margin-top: 3em;
+             padding-top: 0.75em; color: #777; font-size: 0.8em; }
+    code { background: #f3f3f3; padding: 0.1em 0.3em; }
+    pre { background: #f3f3f3; padding: 0.75em; overflow-x: auto; }
+    img { max-width: 100%; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="/assets/me.jpg" alt="{{ site.title }}">
+    <h1><a href="/">{{ site.title }}</a></h1>
+    <p class="bio">+15 years helping startups with marketing. Currently CEO of
+    restack.io. Master's degree in research and experimental psychology, focus
+    on Behaviorism. I write about Startups, Psychology &amp; AI.</p>
+  </header>
+  {{ content }}
+  <footer>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</footer>
+</body>
+</html>
