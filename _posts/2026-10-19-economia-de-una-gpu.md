@@ -43,7 +43,7 @@ Hay dos tipos de ingreso, y se comportan al revés.
 
 **Lo contratado no cae.** Nebius firma contratos de 1-3 años con clientes normales y de 5 años con Microsoft y Meta, a precio fijo. En el 70% de los contratos el cliente adelanta el 50-60% del coste de los chips. Mientras dura el contrato, es renta fija.
 
-**Lo que queda libre se alquila a precio de mercado, y ese precio cae.** La H100 on-demand costaba $6.62/hora a finales de 2023 y ronda los $2.80 hoy: un −30% anual. Los contratos a un año bajaron más, hasta $1.70 en octubre de 2025, y han rebotado a $2.35 por escasez eléctrica. Comparando generaciones en on-demand (la A100 vale un 60% de la H100. La H100, entre la mitad y tres cuartos de una B200 según el índice), cada chip nuevo recorta el precio del anterior un 20-30% al año. El modelo usa un 25%, la media entre esa comparación y el −30% medido en 2024-25, solo sobre lo no contratado.
+**Lo que queda libre se alquila a precio de mercado, y ese precio cae.** La H100 on-demand costaba $6.62/hora a finales de 2023 y ronda los $2.80 hoy: un −30% anual. Los contratos a un año bajaron más, hasta $1.70 en octubre de 2025, y han rebotado a $2.35 por escasez eléctrica. Comparando generaciones en on-demand (la A100 vale un 60% de la H100. La H100, entre la mitad y tres cuartos de una B200 según el índice), cada chip nuevo recorta el precio del anterior un 20-30% al año. Aquí yo uso un 25%, que es la media entre esa comparación y el −30% medido en 2024-25, solo sobre lo no contratado.
 
 Las fuerzas detrás no descansan: +49% de cálculo por dólar cada año (Epoch AI) y una arquitectura nueva de NVIDIA cada año. Nebius lo sabe y cobra casi el doble por contratos de 3-6 meses: es el sobreprecio por asumir el riesgo de la caída.
 
