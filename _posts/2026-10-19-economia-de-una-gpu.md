@@ -9,7 +9,7 @@ Esto es un análisis que he hecho del modelo de negocio de Nebius. Lo que es imp
 
 Personalmente no tengo ni idea de dónde va a ir el precio de Nebius, solo he creado este artículo para dar un poco más de luz al negocio.
 
-Mi punto de vista es bastante negativo: el hecho de que no sean más transparentes en sus reports me da siempre muy muy mala espina. Yo he sido CEO, y cualquier cosa buena de mi negocio que pudiese decir, siempre la diría. Cuando no dices mucho es porque tienes dudas o cosas que esconder.
+Mi punto de vista es bastante negativo: el hecho de que no sean más transparentes en sus reports me da siempre muy muy mala espina. Cuando no dices mucho es porque tienes dudas o cosas que esconder.
 
 ## En resumen
 
@@ -25,7 +25,7 @@ Nebius es una “neocloud”: compra GPUs (los chips que entrenan y ejecutan int
 
 La diferencia con un casero es que una GPU no dura 50 años. Cada año NVIDIA saca un chip mejor y más barato por unidad de cálculo, y el alquiler de la GPU vieja baja. La pregunta de este artículo es simple: ¿da tiempo a recuperar lo que costó la GPU antes de que deje de valer la pena tenerla encendida?
 
-Tres palabras para los que no tengan mucho background en finanzas: capex (lo que costó comprar las GPU), EBITDA (lo que queda del alquiler después de pagar la energía para que las GPUs corran y los sueldos de quienes las colocan y mantienen en el centro de datos, no descuenta ni la depreciación de los chips ni los intereses) y run-rate (el ingreso del último mes multiplicado por 12).
+Tres palabras para los que no tengan mucho background en finanzas: capex (lo que costó comprar las GPUs), EBITDA (lo que queda del alquiler después de pagar la energía para que las GPUs corran y los sueldos de quienes las colocan y mantienen en el centro de datos, no descuenta ni la depreciación de los chips ni los intereses) y run-rate (el ingreso del último mes multiplicado por 12).
 
 ## 1. El dinero que genera la flota de Nebius
 
@@ -47,7 +47,7 @@ Hay dos tipos de ingreso, y se comportan al revés.
 
 Las fuerzas detrás no descansan: +49% de cálculo por dólar cada año (Epoch AI) y una arquitectura nueva de NVIDIA cada año. Nebius lo sabe y cobra casi el doble por contratos de 3-6 meses: es el sobreprecio por asumir el riesgo de la caída.
 
-## 3. La cuenta: un rango, no un número
+## 3. La cuenta
 
 El resultado depende casi por completo de cuántos años está contratada la flota.
 
@@ -66,7 +66,7 @@ La TIR es el “interés anual” que paga la inversión. La lectura es simple: 
 
 Hoy la mayoría de la flota no tiene contratos de 5 años, y por eso no recupera lo que costó.
 
-Nebius tiene unos $40B firmados, casi todo con Microsoft y Meta a 5 años. Pero esos contratos entran poco a poco: Meta ya está en marcha (\~$600M al año) y Microsoft terminó de entregarse en verano de 2026, así que en junio aún no facturaba a pleno ritmo. Nuestra estimación (Nebius no publica la mezcla) es que en junio menos de la mitad de los $3,000M de ingreso anual estaba a 5 años. El resto eran contratos de 1-3 años o alquiler a precio de mercado.
+Nebius tiene unos $40B firmados, casi todo con Microsoft y Meta a 5 años. Pero esos contratos entran poco a poco: Meta ya está en marcha (\~$600M al año) y Microsoft terminó de entregarse en verano de 2026, así que en junio aún no facturaba a pleno ritmo. Mi estimación (Nebius no publica la mezcla, asi que me invento el número en base a cosas que voy leyendo en las notas y un par de videos del CEO) es que en junio menos de la mitad de los $3,000M de ingreso anual estaba a 5 años. El resto eran contratos de 1-3 años o alquiler a precio de mercado.
 
 Con esa mezcla, la flota de hoy gana dinero cada trimestre pero no recupera lo que costó: cuando los contratos cortos vencen, renueva más barato. Está en las filas del medio de la tabla, las que pierden.
 
