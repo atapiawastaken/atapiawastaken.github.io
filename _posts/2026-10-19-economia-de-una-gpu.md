@@ -15,7 +15,7 @@ Mi punto de vista es bastante negativo: el hecho de que no sean más transparent
 
 - La flota en servicio de Nebius costó $5,198M, produce $3,000M al año y cuesta $1,500M operarla.
 - El alquiler de una GPU sin contrato cae un 25% al año: cada generación nueva de NVIDIA empuja el precio de la anterior hacia abajo.
-- La flota solo recupera lo que costó si está contratada a precio fijo toda su vida, y aun así rinde un 6% anual (13% si la GPU dura 5 años). Con contratos de 3 años empata; con 2 o menos, pierde.
+- La flota solo recupera lo que costó si está contratada a precio fijo toda su vida, y aun así rinde un 6% anual (13% si la GPU dura 5 años). Con contratos de 3 años empata, con 2 o menos, pierde.
 - Hoy menos de la mitad de la flota está a 5 años. El resto renueva a precio de mercado.
 - Ese 6-13% del mejor caso está por debajo del 15% al que se financia hoy CoreWeave. La pregunta es a qué precio financiará Nebius sus $20-25B de capex.
 
@@ -25,7 +25,7 @@ Nebius es una “neocloud”: compra GPUs (los chips que entrenan y ejecutan int
 
 La diferencia con un casero es que una GPU no dura 50 años. Cada año NVIDIA saca un chip mejor y más barato por unidad de cálculo, y el alquiler de la GPU vieja baja. La pregunta de este artículo es simple: ¿da tiempo a recuperar lo que costó la GPU antes de que deje de valer la pena tenerla encendida?
 
-Tres palabras que usaremos: capex (lo que costó comprar los chips), EBITDA (lo que queda del alquiler después de pagar la energía para que las GPUs corran y los sueldos de quienes las colocan en el centro de datos; no descuenta ni la depreciación de los chips ni los intereses) y run-rate (el ingreso del último mes multiplicado por 12).
+Tres palabras para los que no tengan mucho background en finanzas: capex (lo que costó comprar las GPU), EBITDA (lo que queda del alquiler después de pagar la energía para que las GPUs corran y los sueldos de quienes las colocan y mantienen en el centro de datos, no descuenta ni la depreciación de los chips ni los intereses) y run-rate (el ingreso del último mes multiplicado por 12).
 
 ## 1. El dinero que genera la flota de Nebius
 
@@ -43,7 +43,7 @@ Hay dos tipos de ingreso, y se comportan al revés.
 
 **Lo contratado no cae.** Nebius firma contratos de 1-3 años con clientes normales y de 5 años con Microsoft y Meta, a precio fijo. En el 70% de los contratos el cliente adelanta el 50-60% del coste de los chips. Mientras dura el contrato, es renta fija.
 
-**Lo que queda libre se alquila a precio de mercado, y ese precio cae.** La H100 on-demand costaba $6.62/hora a finales de 2023 y ronda los $2.80 hoy: un −30% anual. Los contratos a un año bajaron más, hasta $1.70 en octubre de 2025, y han rebotado a $2.35 por escasez eléctrica. Comparando generaciones en on-demand (la A100 vale un 60% de la H100; la H100, entre la mitad y tres cuartos de una B200 según el índice), cada chip nuevo recorta el precio del anterior un 20-30% al año. El modelo usa un 25%, la media entre esa comparación y el −30% medido en 2024-25, solo sobre lo no contratado.
+**Lo que queda libre se alquila a precio de mercado, y ese precio cae.** La H100 on-demand costaba $6.62/hora a finales de 2023 y ronda los $2.80 hoy: un −30% anual. Los contratos a un año bajaron más, hasta $1.70 en octubre de 2025, y han rebotado a $2.35 por escasez eléctrica. Comparando generaciones en on-demand (la A100 vale un 60% de la H100. La H100, entre la mitad y tres cuartos de una B200 según el índice), cada chip nuevo recorta el precio del anterior un 20-30% al año. El modelo usa un 25%, la media entre esa comparación y el −30% medido en 2024-25, solo sobre lo no contratado.
 
 Las fuerzas detrás no descansan: +49% de cálculo por dólar cada año (Epoch AI) y una arquitectura nueva de NVIDIA cada año. Nebius lo sabe y cobra casi el doble por contratos de 3-6 meses: es el sobreprecio por asumir el riesgo de la caída.
 
