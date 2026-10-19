@@ -5,7 +5,11 @@ date: 2026-10-19
 ---
 
 
-Lo que sigue es un análisis de fundamentales. Al 99.9% de los inversores no les importa: lo que mueve el precio de Nebius es un contrato grande o un analista diciendo barbaridades en Twitter. Esto es para el 0.1% restante.
+Esto es un análisis que he hecho del modelo de negocio de Nebius. Lo que es importante saber es que al 99.9% de los inversores de NBIS esto les da igual: no van más allá de invertir cuando un contrato grande se anuncia, o cuando algún analista saca una métrica molona sin entrar en profundidad.
+
+Personalmente no tengo ni idea de dónde va a ir el precio de Nebius; solo he creado este artículo para dar un poco más de luz al negocio.
+
+Mi punto de vista es bastante negativo: el hecho de que no sean más transparentes en sus reports me da siempre muy muy mala espina. Yo he sido CEO, y cualquier cosa buena de mi negocio que pudiese decir, siempre la diría. Cuando no dices mucho es porque tienes dudas o cosas que esconder.
 
 ## En resumen
 
